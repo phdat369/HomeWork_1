@@ -32,3 +32,4 @@ const changeTheme = () => {
     render();
 }
 btn.addEventListener("click", changeTheme)
+render();

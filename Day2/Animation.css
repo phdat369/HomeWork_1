@@ -1,0 +1,42 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.success { 
+    background: green; 
+}
+.error { 
+    background: red; 
+}
+.info { 
+    background: blue; 
+}
+.warning { 
+    background: orange; 
+}
+#toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.toast {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: white;
+  animation: slideIn 0.5s ease;
+}
+
